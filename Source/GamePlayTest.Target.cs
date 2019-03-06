@@ -8,7 +8,7 @@ public class GamePlayTestTarget : TargetRules
 	public GamePlayTestTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-
-		ExtraModuleNames.AddRange( new string[] { "GamePlayTest" } );
+        bUsesSteam = true;
+        ExtraModuleNames.AddRange( new string[] { "GamePlayTest" } );
 	}
 }
