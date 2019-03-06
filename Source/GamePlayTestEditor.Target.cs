@@ -7,8 +7,8 @@ public class GamePlayTestEditorTarget : TargetRules
 {
 	public GamePlayTestEditorTarget(TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Editor;
+        Type = TargetType.Editor;
 
-		ExtraModuleNames.AddRange( new string[] { "GamePlayTest" } );
-	}
+        ExtraModuleNames.AddRange(new string[] { "GamePlayTest" });
+    }
 }
