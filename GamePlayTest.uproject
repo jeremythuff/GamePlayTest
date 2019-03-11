@@ -13,14 +13,18 @@
 			]
 		}
 	],
-	"Plugins": [
-		{
-			"Name": "AdvancedSteamSessions",
-			"Enabled": true
-		},
-		{
-			"Name": "UnrealFastNoisePlugin",
-			"Enabled": true
-		}
-	]
+  "Plugins": [
+    {
+      "Name": "AdvancedSteamSessions",
+      "Enabled": true
+    },
+    {
+      "Name": "UnrealFastNoisePlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineSubsystemSteam",
+      "Enabled": true
+    }
+  ]
 }
